@@ -7,6 +7,11 @@ gem 'rails', '3.2.8'
 
 gem 'sqlite3'
 
+
+group :production do
+  gem 'pg'
+end
+
 group :development do
   gem 'rspec-rails'
   gem 'capybara'
