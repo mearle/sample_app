@@ -9,10 +9,14 @@ gem 'sqlite3'
 
 group :development do
   gem 'rspec-rails'
+  gem 'capybara'
+
 end
 
 group :test do
   gem 'rspec'
+   gem 'webrat', '0.7.1'
+
 end
 
 # Gems used only for assets and not required
